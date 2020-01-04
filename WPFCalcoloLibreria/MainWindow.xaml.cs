@@ -30,6 +30,7 @@ namespace WPFCalcoloLibreria
             double num = double.Parse(txtNumero.Text);
             double radq = Calc.RadQ(num);
             LblRisultato.Content = (radq);
+
         }
     }
 }

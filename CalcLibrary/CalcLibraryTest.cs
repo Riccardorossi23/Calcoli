@@ -30,6 +30,7 @@ namespace CalcLibrary
             double rad = Calc.RadQ(-9);
             Assert.AreEqual(rad, double.NaN);
 
+
         }
     }
 }
