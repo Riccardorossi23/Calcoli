@@ -31,6 +31,7 @@ namespace WPFCalcoloLibreria
             double radq = Calc.RadQ(num);
             LblRisultato.Content = (radq);
 
+
         }
     }
 }
