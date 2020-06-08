@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Radice" Height="301.364" Width="171.364">
     <Grid>
+        
         <TextBox Name="txtNumero" HorizontalAlignment="Left" Height="34" Margin="10,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" TextAlignment="Center" FontSize="22"/>
         <Label Content="INSERISCI UN NUMERO" HorizontalAlignment="Left" Height="33" Margin="12,10,0,0" VerticalAlignment="Top" Width="138"/>
         <Button x:Name="btnCalcola"  Content="CALCOLA" HorizontalAlignment="Left" Height="34" Margin="10,130,0,0" VerticalAlignment="Top" Width="139"  Click="btnCalcola_Click"/>

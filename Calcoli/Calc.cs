@@ -17,6 +17,7 @@ namespace Calcoli
                 resp = double.NaN;
             return resp;
 
+
         }
 
     }

@@ -32,6 +32,7 @@ namespace WPFCalcoloLibreria
             LblRisultato.Content = (radq);
 
 
+
         }
     }
 }

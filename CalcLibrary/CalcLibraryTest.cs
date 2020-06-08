@@ -10,25 +10,26 @@ namespace CalcLibrary
         public void TestMethod1()
         {
             double rad = Calc.RadQ(625);
-            Assert.AreEqual(rad, 25);
+            Assert.AreEqual(25, rad);
         }
         [TestMethod]
         public void TestMethod2()
         {
             double rad = Calc.RadQ(-12);
-            Assert.AreEqual(rad, double.NaN);
+            Assert.AreEqual(double.NaN, rad);
        
         }
+        [TestMethod]
         public void TestMethod3()
         {
             double rad = Calc.RadQ(8);
-            Assert.AreEqual(rad, 23);
+            Assert.AreEqual(2.8284271247461903, rad );
         }
         [TestMethod]
         public void TestMethod4()
         {
             double rad = Calc.RadQ(-9);
-            Assert.AreEqual(rad, double.NaN);
+            Assert.AreEqual(double.NaN, rad);
 
 
         }
@@ -42,6 +43,7 @@ namespace CalcLibrary
         {
             double risultato = Calc.RadQ(num);
             Assert.AreEqual(aspettato, risultato);
+
 
         }
     }
